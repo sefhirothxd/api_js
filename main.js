@@ -27,7 +27,7 @@ const render = async () => {
         <h3 class="card-title">${item.name}</h3>
         <p class="card-text">Total Quizzes: ${item.totalQuizzes}</p>
         <p class="card-text">User: ${item.users}</p>
-        <a href="https://larnu.app/" class="btn btn-primary">Go to Larnu</a>
+        <a href="https://larnu.app/" target="_blank"  class="btn btn-primary">Go to Larnu</a>
       </div>
   </div>
   `;
